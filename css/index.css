@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular';
+}
+
+body {
+    font-family: 'Gilroy-Regular';
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-block: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: sticky;
+    top: 0;
+    z-index: 445;
+    background-color: #fff;
+    width: 100%;
+
+}
+
+
+.logo{
+    color: #c3073f;
+}
+
+.logo span{
+    color:#12141b;
+}
+
+.authernticate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.authernticate a{
+    text-decoration: none;
+    color: #12141b;
+    font-weight: 800;
+}
+
+
+ .swiper {
+     width: 100%;
+     height: 100%;
+ }
+
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .home img{
+    height: 600px;
+ }
+
+ .home-text{
+    text-align: center;
+        width: 60%;
+    position: absolute;
+ }
+
+ .home-text h1{
+    color: #fff;
+    font-size: 60px;
+ }
+
+ .home-text p{
+    color: #fff;
+    padding-block: 20px;
+ }
+
+ .home-text button{
+    padding: 15px 35px;
+ }
+
+ .home-button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+
+ .event-btn{
+    background-color: #c3073f;
+    border: none;
+ }
+
+ .event-btn a{
+    color: #f5f6f9;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+ }
+
+ .buy-btn{
+    background-color: #fff;
+        border: none;
+ }
+
+ .buy-btn a{
+    color: #c3073f;
+    text-decoration: none;
+        font-weight: 600;
+        font-size: 17px;
+ }
+
+ .trust-bg{
+    background-color: #f1f3f7;
+    padding-block: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+ }
+
+ .brandss img{
+    max-width: 100%;
+        max-height: 50px;
+        height: auto;
+        vertical-align: middle;
+        object-fit: contain;
+ }
+
+ .brands{
+    display: flex;
+    gap: 50px;
+ }
+
+ .brands-logo{
+    overflow-x: hidden;
+ }
+
+ .brands-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    color: #c3c3c6;
+    font-weight: 900;
+    font-size: 20px;
+ }
+
+ .todays-events{
+    margin-top: 50px;
+    padding-left: 7%;
+    padding-right: 7%;
+ }
+.events-grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+ .todays-events-card{
+    width: 95%;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+ }
+
+ .todays-events-card-image{
+width: 100%;
+height: 200px;
+background-image: url(../images/end_of_year.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+ }
+
+ .todays-events-card-descriptions{
+    padding-block: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+ }

@@ -13,7 +13,6 @@
 <body>
     <?php include 'header.php' ?>
     <section>
-        <!-- Swiper -->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide home">
@@ -25,7 +24,7 @@
                             <button class="buy-btn"><a href="">Explore events</a></button>
                         </div>
                     </div>
-                    <img src="./images/home.jpg" alt="">
+                    <img src="./images/home_one.jpg" alt="">
                 </div>
             </div>
             <div class="swiper-button-next"></div>
@@ -63,14 +62,25 @@
                                 <img src="./images/tidalrave.png" alt="">
                             </div>
                         </div>
-                     
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <?php include 'todays_events.php'?>
+    <div class="search">
+        <input type="text" placeholder="Search for events ....">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    </div>
+    <?php include 'todays_events.php' ?>
+    <?php include 'upcoming-events.php' ?>
 
+    <section>
+        <div class="ready">
+            <h2>Ready to Elevate Your performing / visual arts Event to the Next Level?</h2>
+            <p>Don't miss out, create your event today!</p>
+        </div>
+    </section>
     <script src="./js/home.js"></script>
     <script src="./js/brands.js"></script>
 </body>

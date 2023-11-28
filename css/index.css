@@ -184,7 +184,7 @@ header{
 
  .todays-events-card-image{
 width: 100%;
-height: 200px;
+height: 230px;
 background-image: url(../images/end_of_year.jpg);
 background-position: center;
 background-size: cover;
@@ -193,7 +193,133 @@ background-repeat: no-repeat;
  }
 
  .todays-events-card-descriptions{
-    padding-block: 15px;
+    padding-block: 25px;
     padding-left: 5%;
     padding-right: 5%;
  }
+
+ .todays-events-card-descriptions i{
+    color: #c3073f;
+    padding-right: 2%;
+    width: 30px;
+    height: 100%;
+    padding-bottom: 5px;
+ }
+
+ .todays-events-card-date-top{
+   
+    width: 70px;
+   
+    text-align: center;
+    position: absolute;
+    margin-left: 10px;
+ }
+
+ .month{
+    padding-block: 10px;
+    color: #f1f3f7;
+    background-color: #c3073f;
+ }
+ .day{
+    background-color: #f1f3f7;
+    color: #c3073f;
+    padding-block: 10px;
+ }
+
+ .events-grids a{
+    text-decoration: none;
+    color: #12141b;
+ }
+
+ .upcoming-events{
+    margin-top: 50px;
+        padding-left: 7%;
+        padding-right: 7%;
+ }
+
+  .upcoming-events-card {
+      width: 95%;
+      margin-top: 30px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  .upcoming-events-card-image {
+      width: 100%;
+      height: 230px;
+      background-image: url(../images/end_of_year.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+  }
+
+  .upcoming-events-card-descriptions {
+      padding-block: 25px;
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+
+  .upcoming-events-card-descriptions i {
+      color: #c3073f;
+      padding-right: 2%;
+      width: 30px;
+      height: 100%;
+      padding-bottom: 5px;
+  }
+
+  .upcoming-events-card-date-top {
+
+      width: 70px;
+
+      text-align: center;
+      position: absolute;
+      margin-left: 10px;
+  }
+
+  .ready{
+    background-color: #ffebe6;
+    margin-top: 50px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-block: 30px;
+  }
+
+  .search{
+    padding: 0 7%;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .search input{
+    width: 90%;
+    height: 50px;
+    padding-left: 3%;
+    background-color: #f1f3f7;
+    border: none;
+    
+  }
+
+  .search input:focus{
+    outline: none;
+        color: #c3c3c6;
+  }
+  .search span{
+    position: absolute;
+  right: 15%;
+  margin-top: 18px;
+    color: #c3c3c6;
+  }
+
+
+  @media only screen and (max-width: 1300px) {
+    .events-grids{
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
+
+  }
+
+        @media only screen and (max-width: 900px) {
+            .events-grids{
+                grid-template-columns: 1fr;
+            }
+        }
